@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user start-up script.
+#
+
+echo "Setting backlight brightness"
+echo 2500 > /sys/class/backlight/intel_backlight/brightness
