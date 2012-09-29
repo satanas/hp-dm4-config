@@ -4,4 +4,4 @@
 #
 
 echo "Setting backlight brightness"
-echo 2500 > /sys/class/backlight/intel_backlight/brightness
+echo 4 > /sys/class/backlight/acpi_video0/brightness
